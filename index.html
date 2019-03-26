@@ -10,12 +10,8 @@
 
 <body>
 	<!-- STEP 1: Build out a HEADER and a SECTION element -->
-	<header>
-
-	</header>
-	<section>
-		
-	</section>
+	<header></header>
+	<section></section>
 	<script>
 		/* STEP 2: Bind the HEADER and the SECTION elements above to variables */
 		var header = document.querySelector('header');
@@ -33,9 +29,19 @@
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
 		request.onload = function() {
 			var iScreamInc = request.response;
+			console.log(iScreamInc);
 		}
 		/* STEP 9: Build out the populateHeader() function */
+		function populateHeader(jsonObj) {
+			// Create and H1
+			var header1 = document.querySelector('h1');
 
+			// Setting text
+			header1.textContent = jsonObj['companyName'];
+
+			// Attaching new H1 to HEADER
+			header1.appendChild(header1);
+		}
 		/* STEP 10a: Assemble the showTopFlavors() function */
 
 			// STEP 10b: Bind the JSON topFlavors object to a var
