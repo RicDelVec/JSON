@@ -35,7 +35,7 @@
 			populateHeader(iScreamInc);
 
 			// Show top flavors in the SECTION
-			showTopFlavors()
+			topFlavors(iScreamInc);
 		}
 		/* STEP 9: Build out the populateHeader() function */
 		function populateHeader(jsonObj) {
@@ -64,8 +64,10 @@
 				// STEP 10f: Build a loop for the ingredients array in the JSON
 
 				// STEP 10g: Append each of the above HTML elements to the ARTICLE element
-
+				article.appendChild(h2);
+				article.appendChild(img);
 				// STEP 10h: Append each complete ARTICLE element to the SECTION element
+				section.appendChild(article);
 			}
 		}
 		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
