@@ -24,6 +24,7 @@ header p {
 
 /* section styles */
 section {
+	width: 80%;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 5rem;
