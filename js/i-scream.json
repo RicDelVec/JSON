@@ -37,5 +37,27 @@
       ],
       "image": "strawberry-sprinkle.svg"
     }
+    {
+      "name": "Banana Muffin",
+      "calories": 325,
+      "type": "sorbet",
+      "ingredients": [
+        "muffin chocolate chips",
+        "banana flavouring",
+        "lactose free milk"
+      ],
+      "image": "banana-muffin.svg"
+    }
+    {
+      "name": "Pistachio Smarties",
+      "calories": 375,
+      "type": "ice cream",
+      "ingredients": [
+        "Pistachio bits",
+        "m&m's smarties",
+        "glucose"
+      ],
+      "image": "pistachio-smarties.svg"
+    }
   ]
 }
